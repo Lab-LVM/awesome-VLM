@@ -15,7 +15,7 @@
 
 Narrow the distance of latent space between the image and text.
 
--   [CLIP](https://arxiv.org/abs/2103.00020)
+-   [CLIP](https://arxiv.org/abs/2103.00020) [summary](/../../issues/1)
 -   [CoOp](https://arxiv.org/abs/2203.05557)
 -   [CLOOB](https://arxiv.org/abs/2110.11316)
 -   [ALIGN](https://arxiv.org/abs/2102.05918)
