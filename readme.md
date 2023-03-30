@@ -1,58 +1,57 @@
-# Awesome Paper Template
-
-This is an awesome computer vision paper template. Use this template for your own purpose.
-
-Please introduce your project here.
-
-
+# Awesome Vision Language Model
 
 ---
 
 ## Overview
+- [Awesome Vision Language Model](#awesome-vision-language-model)
+  - [Overview](#overview)
+  - [Contrastive Learning](#contrastive-learning)
+  - [PrefixLM](#prefixlm)
+  - [Multi-modal Fusing with Cross Attention](#multi-modal-fusing-with-cross-attention)
+  - [Masked-Language Modeling / Image-Text Matching](#masked-language-modeling--image-text-matching)
+  - [No Training](#no-training)
 
-- [introduction](#introduction)
-- [paper category 1](#paper-category-1)
-  - [paper subcategory 1](#paper-subcategory-1)
-- [paper category 2](#paper-category-2)
-  - [paper subcategory 1](#paper-subcategory-1)
+## Contrastive Learning
 
+Narrow the distance of latent space between the image and text.
 
+-   [CLIP](https://arxiv.org/abs/2103.00020)
+-   [CoOp](https://arxiv.org/abs/2203.05557)
+-   [CLOOB](https://arxiv.org/abs/2110.11316)
+-   [ALIGN](https://arxiv.org/abs/2102.05918)
+-   [DeCLIP](https://arxiv.org/abs/2110.05208)
+-   [LiT](https://arxiv.org/abs/2111.07991)
+-   [FLAVA](https://arxiv.org/abs/2112.04482)
 
-## Introduction
+## PrefixLM
 
-Please describe your subject in a short paragraph or table or picture.
-
-
-
-## Paper Category 1
-
-Please describe this category with easy words.
-
-
-
-### Paper subcategory 1
-
-Please describe this subcategory with easy words.
-
-
-
-- **PaperNickName**: "paper title", publication, year [[paper](https://arxiv.org/abs/1512.03385)] [[code](https://github.com/pytorch/vision/blob/main/torchvision/models/resnet.py)] [[summary](summary/example.md)]
-
-- **ResNet**: "Deep Residual Learning for Image Recognition", CVPR, 2016 [[paper](https://arxiv.org/abs/1512.03385)] [[code](https://github.com/pytorch/vision/blob/main/torchvision/models/resnet.py)] [[summary](summary/example.md)]
-
-  
-
-## Paper Category 2
-
-Please describe this subcategory with easy words.
+Unified multi-modal architecture consisting of encoder and decoder. Main tasks are image-conditioned text generation/captioning and VQA.
+- [SimVLM](https://arxiv.org/abs/2108.10904)
+- [VirTex](https://arxiv.org/abs/2006.06666v3)
+- [Frozen](https://arxiv.org/abs/2106.13884)
+- [MAPL](https://arxiv.org/abs/2210.07179)
+- [ClipCap](https://arxiv.org/abs/2111.09734)
+- [Flamingo](https://arxiv.org/abs/2204.14198)
 
 
+## Multi-modal Fusing with Cross Attention
+Fuse visual information into a language model decorder using a cross attention mechanism. Main tasks are image captioning and VQA.
 
-### Paper subcategory 1
+- [VisualGPT](https://arxiv.org/abs/2102.10407)
+- [VC-GPT](https://arxiv.org/abs/2201.12723)
+- [Flamingo](https://arxiv.org/abs/2204.14198)
+- [FIBER](http://arxiv.org/abs/2206.07643)
 
-Please describe this subcategory with easy words.
+## Masked-Language Modeling / Image-Text Matching
+Combination of MLM and ITM. MLM predicts the masked word by image that annotated more information as bounding box and ITM matches image and caption among many negative captions.
 
+- [VisualBERT](https://arxiv.org/abs/1908.03557)
+- [FLAVA](https://arxiv.org/abs/2112.04482)
+- [ViLBERT](https://arxiv.org/abs/1908.02265)
+- [LXMERT](https://arxiv.org/abs/1908.07490)
+- [BridgeTower](https://arxiv.org/abs/2206.08657)
 
-
-- **PaperNickName**: "paper title", publication, year [[paper](https://arxiv.org/abs/1512.03385)] [[code](https://github.com/pytorch/vision/blob/main/torchvision/models/resnet.py)] [[summary](summary/example.md)]
-- **ResNet**: "Deep Residual Learning for Image Recognition", CVPR, 2016 [[paper](https://arxiv.org/abs/1512.03385)] [[code](https://github.com/pytorch/vision/blob/main/torchvision/models/resnet.py)] [[summary](summary/example.md)]
+## No Training
+Without training, just using pretrained model, make two features into one space.
+- [ASIF](https://arxiv.org/abs/2210.01738)
+- [MaGiC](https://arxiv.org/abs/2205.02655)
