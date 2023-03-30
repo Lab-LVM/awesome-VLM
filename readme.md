@@ -1,7 +1,5 @@
 # Awesome Vision Language Model
 
----
-
 ## Overview
 - [Awesome Vision Language Model](#awesome-vision-language-model)
   - [Overview](#overview)
