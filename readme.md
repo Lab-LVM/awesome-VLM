@@ -14,8 +14,8 @@
 Narrow the distance of latent space between the image and text.
 
 -   [CLIP](https://arxiv.org/abs/2103.00020) [📝***Summary***](/../../issues/1)
--   [CoOp](https://arxiv.org/abs/2109.01134)
--   [CoCoOp](https://arxiv.org/abs/2203.05557)
+-   [CoOp](https://arxiv.org/abs/2109.01134) [📝***Summary***](/../../issues/2)
+-   [CoCoOp](https://arxiv.org/abs/2203.05557) [📝***Summary***](/../../issues/3)
 -   [CLOOB](https://arxiv.org/abs/2110.11316)
 -   [ALIGN](https://arxiv.org/abs/2102.05918)
 -   [DeCLIP](https://arxiv.org/abs/2110.05208)
@@ -30,7 +30,7 @@ Unified multi-modal architecture consisting of encoder and decoder. Main tasks a
 - [Frozen](https://arxiv.org/abs/2106.13884)
 - [MAPL](https://arxiv.org/abs/2210.07179)
 - [ClipCap](https://arxiv.org/abs/2111.09734)
-- [Flamingo](https://arxiv.org/abs/2204.14198)
+- [Flamingo](https://arxiv.org/abs/2204.14198) [📝***Summary***](/../../issues/4)
 
 
 ## Multi-modal Fusing with Cross Attention
@@ -38,7 +38,7 @@ Fuse visual information into a language model decorder using a cross attention m
 
 - [VisualGPT](https://arxiv.org/abs/2102.10407)
 - [VC-GPT](https://arxiv.org/abs/2201.12723)
-- [Flamingo](https://arxiv.org/abs/2204.14198)
+- [Flamingo](https://arxiv.org/abs/2204.14198) [📝***Summary***](/../../issues/4)
 - [FIBER](http://arxiv.org/abs/2206.07643)
 
 ## Masked-Language Modeling / Image-Text Matching
