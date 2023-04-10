@@ -36,7 +36,7 @@ Unified multi-modal architecture consisting of encoder and decoder. Main tasks a
 ## Multi-modal Fusing with Cross Attention
 Fuse visual information into a language model decorder using a cross attention mechanism. Main tasks are image captioning and VQA.
 
-- [VisualGPT](https://arxiv.org/abs/2102.10407)
+- [VisualGPT](https://arxiv.org/abs/2102.10407) [📝***Summary***](/../../issues/5)
 - [VC-GPT](https://arxiv.org/abs/2201.12723)
 - [Flamingo](https://arxiv.org/abs/2204.14198) [📝***Summary***](/../../issues/4)
 - [FIBER](http://arxiv.org/abs/2206.07643)
