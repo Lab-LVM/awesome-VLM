@@ -49,6 +49,7 @@ Combination of MLM and ITM. MLM predicts the masked word by image that annotated
 - [ViLBERT](https://arxiv.org/abs/1908.02265)
 - [LXMERT](https://arxiv.org/abs/1908.07490)
 - [BridgeTower](https://arxiv.org/abs/2206.08657)
+- [Clinical-BERT](https://ojs.aaai.org/index.php/AAAI/article/view/20204)
 
 ## No Training
 Without training, just using pretrained model, make two features into one space.
