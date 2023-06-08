@@ -20,7 +20,7 @@ Narrow the distance of latent space between the image and text.
 -   [ALIGN](https://arxiv.org/abs/2102.05918)
 -   [DeCLIP](https://arxiv.org/abs/2110.05208)
 -   [LiT](https://arxiv.org/abs/2111.07991)
--   [FLAVA](https://arxiv.org/abs/2112.04482)
+-   [FLAVA](https://arxiv.org/abs/2112.04482) [📝***Summary***](/../../issues/7)
 
 ## PrefixLM
 
@@ -45,7 +45,7 @@ Fuse visual information into a language model decorder using a cross attention m
 Combination of MLM and ITM. MLM predicts the masked word by image that annotated more information as bounding box and ITM matches image and caption among many negative captions.
 
 - [VisualBERT](https://arxiv.org/abs/1908.03557)
-- [FLAVA](https://arxiv.org/abs/2112.04482)
+- [FLAVA](https://arxiv.org/abs/2112.04482) [📝***Summary***](/../../issues/7)
 - [ViLBERT](https://arxiv.org/abs/1908.02265)
 - [LXMERT](https://arxiv.org/abs/1908.07490)
 - [BridgeTower](https://arxiv.org/abs/2206.08657)
